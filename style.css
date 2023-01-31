@@ -6,19 +6,43 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-}
-.box{
-    display: flex;
+    background-attachment: fixed;}
+form{display: flex;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-    padding: 50px;
-}
+
+    }
+
 .container{
     width: 350px;
     display: flex;
     flex-direction: column;
-    padding: 10px 0 10px 0 ;
+    padding: 0 15px 0 15px ;
+}
+
+span{
+    color: pink;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+ .input-field{
+    height: 45px;
+    width: 84px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    padding:  0 0 0 45px;
+    background: rgb(47, 170, 179);
 }
 
