@@ -7,12 +7,13 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;}
-form{display: flex;
+form{
+    display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
-
-    }
+    min-height: 100vh;
+    flex-direction: column;
+}
 
 .container{
     width: 350px;
