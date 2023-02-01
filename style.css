@@ -36,14 +36,36 @@ header{
     justify-content: center;
     padding: 10px 0 10px 0;
 }
- .input-field{
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+ input{
     height: 45px;
     width: 84px;
     border: none;
     outline: none;
     border-radius: 30px;
     color: white;
-    padding:  0 0 0 45px;
-    background: rgb(47, 170, 179);
-}
+    background: rgb(70, 86, 87); 
+    padding: 5px 45px 5px 100px;
+    
+   
+   }
+  i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+  }
+  ::placeholder{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    
+  }
+ .submit{
+    border: none;
+ }
+    
 
