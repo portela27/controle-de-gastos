@@ -54,9 +54,14 @@ header{
    }
   i{
     position: relative;
-    top: -33px;
-    left: 17px;
-  }
+    height: 40px;
+    color: white;
+    position: relative;
+    left: -33px;
+ }    
+    
+    
+ 
   ::placeholder{
     color: white;
     display: flex;
@@ -64,8 +69,7 @@ header{
     font-style: italic;
     
   }
- .submit{
-    border: none;
- }
+ 
+  
     
 
